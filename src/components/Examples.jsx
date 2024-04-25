@@ -28,6 +28,8 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples" className="" >
       <Tabs
+        // buttonsContainer={Section}
+        buttonsContainer="menu"
         buttons={
           <>
             {/* the below anonymous arrow function is passed as a value to the onSelect & as well as to onClick*/}
